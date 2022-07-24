@@ -1,15 +1,17 @@
 document
- .querySelector('request-insult')
+ .querySelector('.request-insult')
  .addEventListener('click', function(){
-    fetch("/insults")
+    console.log('adha');
+    fetch("/insults") 
      .then(function(res){
         return res.json()
     })
     .then(function(data){
-        document.querySelector('.insults').innertext = data.insults;
+        document.querySelector('.Insults').innerText = data.insults;
+        console.log(data);
     })
     .catch(function(err) {
         console.error(err);
     });
  })
- console.log('kgjho')
+ 

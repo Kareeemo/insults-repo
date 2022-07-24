@@ -21,7 +21,7 @@ function getRandomComplement() {
 const insults = [
   "You suck at this",
   "That's one of the worst shirts i've ever seen",
-  "Don’t be ashamed of who you are. That’s your parent’s job.",
+  "Don't be ashamed of who you are. That's your parent's job.",
   "Your teeth are so yellow that when you smile traffic slows down",
   "If being a loser was a competition you'd still come in last place",
   "I get so emotional when you're not around. That emotion is happiness.",
